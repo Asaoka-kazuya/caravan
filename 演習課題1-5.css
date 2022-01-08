@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
 
 header{
   width: 10%;
@@ -21,5 +18,5 @@ header{
 }
 
 .list{
-  padding: 44px;
+  padding-left: 40px;
 }
