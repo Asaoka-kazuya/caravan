@@ -21,7 +21,7 @@ header{
    position:relative;
 }
 
-.sociali{
+.social{
    display: inline-block;
    margin: 20px;
    position: absolute;
@@ -42,7 +42,7 @@ header.heading{
 
 .nav-list-item{
    list-style: none;
-   display: inline-block;
+   display: block;
    margin: 0 20px;
 }
 
@@ -223,4 +223,68 @@ footer{
 
 .footer-text{
   color: #fff;
+}
+
+@media screen and (max-width: 425px){
+   header{
+      width: 100%;
+   }
+
+   nav{
+      width: 100%;
+   }
+
+   .nav-list{
+      width: 100%;
+   }
+
+   .nav-list-item{
+      width: 100%;
+      margin: 0 0 10 0;
+   }
+
+   .social{
+      display: none;
+   }
+
+   .main-visual-content{
+   width: 100%;
+   }
+
+   main{
+      width: 100%;
+      display: block;
+   }
+
+   .blog{
+      width: 100%;
+      margin: 0;
+   }
+
+   .blog-box{
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   .blog-image{
+      width: 49%;
+   }
+
+   .blog-text{
+      width: 49%;
+      margin-right: 5%;
+   }
+
+   .instagram-box{
+      width: 48%;
+      padding-top:48%;
+   }
+
+   .instagram-box:nth-child(odd){
+      margin-right: 4%;
+   }
+
+   .pagination{
+      margin-bottom: 50px;
+   }
 }
